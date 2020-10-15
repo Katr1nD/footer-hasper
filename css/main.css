@@ -1,0 +1,15 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #000000;
+}
+
+footer {
+    height: 100%;
+    width: 1170px;
+    background: repeating-linear-gradient(to right, rgba(249, 212, 228, 0.1), rgba(249, 212, 228, 0.1) 70px, transparent 70px, transparent 100px);
+}
