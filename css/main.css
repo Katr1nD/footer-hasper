@@ -19,6 +19,8 @@ footer {
     height: 420px;
     width: 1170px;
     background: repeating-linear-gradient(to right, rgba(249, 212, 228, 0.1), rgba(249, 212, 228, 0.1) 70px, transparent 70px, transparent 100px);
+    color: #ffffff;
+    font-family: 'Open Sans', serif;
 }
 
 .logo {
@@ -27,8 +29,6 @@ footer {
 }
 
 .title {
-    font-family: 'Open Sans', serif;
-    color: #ffffff;
     font-size: 20px;
     text-align: center;
     letter-spacing: 1px;
@@ -44,4 +44,13 @@ footer {
     margin: 20px;
     height: 15px;
     color: #ffffff;
+}
+
+.copyright {
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.copyright span {
+    color: #00e1ff;
 }
