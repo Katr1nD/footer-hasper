@@ -14,9 +14,9 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     margin: 0 auto;
-    height: 420px;
+    height: 100%;
     width: 1170px;
     background: repeating-linear-gradient(to right, rgba(249, 212, 228, 0.1), rgba(249, 212, 228, 0.1) 70px, transparent 70px, transparent 100px);
     color: #ffffff;
