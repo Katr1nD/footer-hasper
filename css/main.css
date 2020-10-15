@@ -37,3 +37,9 @@ footer {
     border-top: 1px solid #ffffff;
     width: 230px;
 }
+
+.fab {
+    margin: 20px;
+    height: 15px;
+    color: #ffffff;
+}
