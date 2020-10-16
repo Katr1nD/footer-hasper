@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('./rubberBand.css');
 
 html {
     height: 100%;
@@ -29,10 +30,13 @@ footer {
 }
 
 .title {
+    width: 1170px;
     font-size: 20px;
     text-align: center;
     letter-spacing: 1px;
     text-transform: uppercase;
+    animation: rubberBand;
+    animation-duration: 3s;
 }
 
 .line {
@@ -40,11 +44,17 @@ footer {
     width: 230px;
 }
 
+.title,
+.line {
+    margin: 10px auto;
+}
+
 .fab {
-    margin: 20px;
+    margin: 10px;
     height: 15px;
     color: #ffffff;
 }
+
 
 .copyright {
     font-size: 15px;
